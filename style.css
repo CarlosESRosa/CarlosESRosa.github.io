@@ -7,6 +7,7 @@ body {
   color: lightblue;
 }
 
+/* profile-box*/
 .profile-box {
   background-color: rgba(0, 0, 0, 0.9);
   text-align: center;
@@ -41,4 +42,30 @@ body {
   width: 110px;
   padding: 0 50px;
   margin-top: 30px;
+}
+/*END profile-box*/
+
+/* skills-box*/
+.skills-box {
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  padding: 3rem;
+  display: block;
+  max-width: 886px;
+  border-radius: 50px;
+}
+
+.skills-box h1 {
+  margin-bottom: 30px;
+}
+
+.skills-box img {
+  width: 400px;
+}
+
+.skills-box table {
+  margin-bottom: 50px;
+  text-align: left;
 }
