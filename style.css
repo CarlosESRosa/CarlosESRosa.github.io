@@ -2,3 +2,43 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: "Source Code Pro", monospace;
+  color: lightblue;
+}
+
+.profile-box {
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  padding: 3rem;
+  display: block;
+  width: 35%;
+  border-radius: 50px;
+}
+
+.profile-box img {
+  width: 300px;
+  margin: 0px auto 2rem;
+  border-radius: 25px;
+}
+
+.profile-box h3 {
+  margin: 20px auto;
+}
+
+.profile-box table {
+  margin: 0px auto; /*table align center*/
+}
+
+.profile-box .table-1 a {
+  font-size: 25px;
+  padding: 0 30px;
+}
+
+.profile-box table img {
+  width: 110px;
+  padding: 0 50px;
+  margin-top: 30px;
+}
