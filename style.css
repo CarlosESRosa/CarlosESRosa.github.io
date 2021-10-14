@@ -4,7 +4,8 @@
 }
 body {
   font-family: "Source Code Pro", monospace;
-  color: lightblue;
+  color: #dbfff3;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* profile-box*/
@@ -15,8 +16,9 @@ body {
   margin-top: 100px;
   padding: 3rem;
   display: block;
-  width: 35%;
+  width: 500px;
   border-radius: 50px;
+  color: white;
 }
 
 .profile-box img {
@@ -36,6 +38,8 @@ body {
 .profile-box .table-1 a {
   font-size: 25px;
   padding: 0 30px;
+  color: #ac99f2;
+  text-decoration: none;
 }
 
 .profile-box table img {
@@ -59,6 +63,7 @@ body {
 
 .skills-box h1 {
   margin-bottom: 30px;
+  color: #7e7cd9;
 }
 
 .skills-box img {
@@ -68,5 +73,16 @@ body {
 .skills-box table {
   margin-bottom: 50px;
   text-align: left;
+  color: #c3bfff;
+}
+.skills-box table th {
+  padding: 0 15px;
 }
 /*END skills-box*/
+
+footer {
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+}
